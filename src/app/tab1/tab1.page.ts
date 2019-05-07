@@ -5,4 +5,20 @@ import { Component } from '@angular/core';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page {}
+export class Tab1Page {
+
+  data: any;
+
+  constructor(){
+
+
+
+    this.data =  {
+      nombre: '',
+      apellido: '',
+      edad: null
+    }
+
+  }
+
+}
